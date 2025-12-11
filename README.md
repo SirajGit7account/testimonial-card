@@ -69,3 +69,6 @@ style={{ height: `${height}px`, width: `${width}px` }}
 
 Overall this was a fun use of Divs, dynamic style tags, and of course Tailwind CSS and Tan Stack routing among other things.
 
+![Desktop Design](designs/final-result.png)
+
+
