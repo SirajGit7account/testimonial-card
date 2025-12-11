@@ -20,7 +20,7 @@ Both these files then got imported into the @index.tsx file in the routes folder
 In both the content and the Index file, the profile image, the name, and the user name were kept together in one div and the testimonial was kept in another. This was due to different styling issues for both of them: 
 
 The index file: 
-<!-- <div className="relative min-h-screen">
+<div className="relative min-h-screen">
       <div 
         style={{
           position: 'absolute',
@@ -41,10 +41,10 @@ The index file:
           width: '280px',
           paddingLeft: '10px',
         }}
-      > -->
+      >
 
 The content file: 
-<!-- {/* User info section - image, name, username */}
+{/* User info section - image, name, username */}
             <div className="flex flex-row items-center gap-3 mb-4">
                 <img src={image} className="w-10 h-10 rounded-full" />
                 <div className="flex flex-col">
@@ -55,12 +55,12 @@ The content file:
             {/* Testimonial text section */}
             <div>
                 <p className="text-sm text-left text-black/70 font-['Noto Sans']">{text}</p>
-            </div> -->
+            </div>
 ------
 
 Apart from the use of div another main learning highlight was the dynamic style structure that was ultimately set in the index file but started in the individual feature files. Such as this simple setting of height and width of the foundational background of the testimonial card: 
 
-<!-- style={{ height: `${height}px`, width: `${width}px` }}  -->
+style={{ height: `${height}px`, width: `${width}px` }} 
 
-Overall this was a fun use of Devs dynamic style tags, and of course Tailwind CSS and Tan Stack routing among other things.
+Overall this was a fun use of Divs, dynamic style tags, and of course Tailwind CSS and Tan Stack routing among other things.
 
